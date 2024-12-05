@@ -4,7 +4,7 @@ import (
 	"net/http"
 )
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello, World!!!")
+	fmt.Fprintf(w, "Hello, Eu sou a melhor do mundo Yeeeeeee!!!")
 }
 func main() {
 	http.HandleFunc("/", handler)
